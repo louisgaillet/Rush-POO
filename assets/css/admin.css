@@ -1,0 +1,79 @@
+/* Le css relatif à l'espace admin*/
+
+.manage-page{
+padding: 50px 0;
+}
+
+.item_user,.item_product{
+	list-style: none;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 13px;
+    border-radius: 13px;
+}
+
+.edit_user.no-visible{
+	transform:scale(0);
+	opacity: 0;
+	transition:all .5s ease;
+	display: none;
+}
+
+.item_user .item_product h3{
+	margin-bottom: 0!important;
+	font-size: 1.2rem;
+}
+
+.edit_user{
+	padding: 26px;
+}
+#wrapper-submit{
+	text-align: center;
+}
+#wrapper-submit span{
+	margin : auto;
+}
+.submit{
+	margin: 6px auto;
+	cursor: pointer;
+}
+
+
+.module_admin{
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 13px;
+    overflow: hidden;
+    margin: 26px auto;
+
+ }
+
+ .module_admin_list{
+ 	margin: 26px auto;
+ }
+
+
+ .module_content{
+ 	padding: 26px;
+ }
+
+
+.header_item{
+	background: #31b0d5;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
+
+.module_admin_list .header_item{
+	border-radius:13px 13px 0 0; 
+	margin-bottom: 13px;
+}
+
+
+.module_admin_list .module_content,
+.module_admin_list ul{
+	padding: 0;
+}
+
+input.btn-info{
+	margin: auto;
+}

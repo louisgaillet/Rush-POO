@@ -1,0 +1,66 @@
+/*Css global du site button, generalités, polices ...*/
+
+img {
+	max-width: 100%;
+}
+
+body{
+	font-family: 'Lora', serif;
+	min-height: 100vh;
+}
+h1,h2,h3,h4,h5,h6, a, button, span{
+	font-family: 'Istok Web', sans-serif;
+}
+
+h3{
+	font-size: 1.1rem;
+}
+
+a:hover, a:active, a:focus{
+	text-decoration: none !important;
+/*	color: inherit !important;*/
+}
+
+button{
+	cursor: pointer;
+}
+
+.wrapper_site{
+	padding-top: 55px;
+	min-height: 100vh;
+}
+
+/*---------------------- HEADER ------------------------*/
+
+.header{
+	height: 200px;
+	max-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header img {
+	max-height: 140px;
+}
+
+.login{
+	background-image: url('../img/background.jpeg');
+	background-size: cover;
+}
+
+#form_login{
+	background-color: rgba(255,255,255,0.8);
+}
+
+.alert-success{
+	margin: 0 !important;
+}
+
+/*---------------------- FOOTER ------------------------*/
+footer{
+	min-height: 50px;
+}
+
+
+
+
